@@ -1,0 +1,173 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+ background-color:  #ffffff;
+ width: 100%;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 40px;
+ padding-right: 40px;
+ position: fixed;
+ top: 0;
+}
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.namaWeb{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-links li {
+    margin-left: 20px;
+
+}
+.nav-links li a{
+    text-decoration: none;
+    color:  black;
+    
+}
+.container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.row-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 20; */
+}
+.left-col{
+    display: flex;
+    align-items:center ;
+}
+.right-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p.deskripsi{
+    text-align: justify;
+}
+.default-btn{
+    padding: 10px 20px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.default-btn-about{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.default-btn-about:hover{
+    padding: 10px 20px;
+    background-color: #d8d7d7; 
+}
+.default-btn:hover{
+    background-color: #c9ac05;
+
+}
+.image-card{
+}
+.image-card img{
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+}
+.section-1{
+    margin-top: 20px;
+}
+.section-2{
+    background-color: #ffd700;
+}
+.space-sec2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-about{ 
+    background-color: #ffd700;
+    padding: 40px;
+
+}
+svg{
+    display: block;
+}
+.left-col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-col2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-group{
+    display: flex; 
+}
+.cv-btn{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: transparent;
+    margin-left: 20px;
+    color: black;
+}
+
+
+.section-3{
+    padding-bottom: 60px;
+}
+.portofolio-parent{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    /* display: flex;
+    justify-content: space-between;
+    overflow-x: scroll; */
+}
+.card-porto{
+    background-color: #faf3e1;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 16px; 
+    
+}
+
+.image-porto-parent{
+    border-radius: 6px;
+    height: 200px;
+    width:100%;
+    object-fit: cover;
+
+} 
+footer {
+    background-color: black;  
+    color: #fff; 
+    padding: 20px 0;  
+    text-align: center; 
+    width: 100%; 
+    margin-top: auto; 
+}
+
+.footer-copyright {
+    font-size: 12px; 
+}
